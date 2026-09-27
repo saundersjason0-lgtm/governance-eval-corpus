@@ -1,0 +1,8 @@
+{
+  "experiment_id": "structural_measure_v0_2_2",
+  "description": "24-call v0.2.1 vs v0.2.2 structural measurement support remediation",
+  "versions": ["v0.2.1", "v0.2.2"],
+  "runs_per_cell": 3,
+  "model": "gpt-5.5",
+  "reasoning_effort": "high"
+}

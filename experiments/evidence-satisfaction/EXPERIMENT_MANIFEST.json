@@ -1,0 +1,16 @@
+{
+  "experiment_id": "evidence_satisfaction_champion_challenger",
+  "description": "48-call paired counterfactual champion/challenger evidence satisfaction measurement",
+  "champion": "0.1.0",
+  "challenger": "0.2.0",
+  "runs_per_cell": 3,
+  "families": ["dtp", "scan", "calibration", "sublet"],
+  "evidence_states": ["present", "absent"],
+  "model": "gpt-5.5",
+  "reasoning_effort": "high",
+  "temperature": "omitted",
+  "operator_prompt_file": "PROMPT.txt",
+  "substitutions": {
+    "dtp": "SYN-BEACON-PAY-01 (not SYN-BEACON-DTP-GAP-01 — tests signed authorization satisfaction, not autopay trigger gap)"
+  }
+}

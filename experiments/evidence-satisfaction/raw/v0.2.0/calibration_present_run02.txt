@@ -1,0 +1,16 @@
+Claim #EVAL-CAL-PRESENT | 2020 Subaru Outback Limited — Claim Review
+
+STATUS: NO OPEN ITEMS
+
+CURRENT PICTURE
+ALIGNED
+Payment review file shows completed repair date 06/02/2026. Active scan and calibration lines are supported by attached reports, and the completed glass photo aligns with the windshield replacement scope.
+
+REVIEW FOCUS
+No material review items.
+
+ASSISTANT TAKE
+Line 88 static calibration is supported by `EyeSight_cal_0601.pdf`, and Line 142 pre/post scan is supported by `Subaru_Scan_Report_88421.pdf` showing pre-scan 05/29/2026 and post-scan 06/01/2026 with no DTCs.
+
+FILE NOTE
+Reviewed estimate, scan report, calibration report, and completed glass photo. Line 30 windshield replacement aligns with Photo 12, “Completed glass — outback_glass.jpg.” Line 88 static calibration and Line 142 pre/post scan have matching documentation in the supplied file. No material review items noted from the documents provided.

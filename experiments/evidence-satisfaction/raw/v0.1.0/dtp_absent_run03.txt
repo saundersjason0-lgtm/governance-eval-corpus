@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NO OPEN ITEMS
+
+CURRENT PICTURE
+ALIGNED
+Payment review file shows a final bill on the estimate of record with “FINAL BILL - DIRECTION TO PAY SECURED” and estimate properties note “DTP secured.” Tri Star / claim payment status is Requested, with no issued-payment proof supplied.
+
+REVIEW FOCUS
+No material review items.
+
+ASSISTANT TAKE
+Use Requested as the current payment state unless issuance proof is added. The separate signed DTP form is not uploaded, but the estimate record contains the DTP-secured notation.
+
+FILE NOTE
+File reviewed at payment review stage. Estimate/final bill reflects “FINAL BILL - DIRECTION TO PAY SECURED,” with estimate properties noting “DTP secured,” and Tri Star / claim payment status is Requested. Line 22 RR quarter replacement aligns by area with Photo 01 labeled “RR quarter damage.” No material scope, documentation, or payment-sequence issue was identified from the supplied file.

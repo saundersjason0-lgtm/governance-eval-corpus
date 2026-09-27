@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with the CCC final bill/header stating “FINAL BILL - DIRECTION TO PAY SECURED” and the estimate properties note showing “DTP secured.” Tri Star / claim Payment Status is “Requested,” and the signed DTP authorization is listed as “NOT IN FILE.”
+
+REVIEW FOCUS
+1. DTP authorization — Doc Verify: The estimate of record states DTP secured, but the signed DTP authorization itself is not in the supplied documents. Verify/support the DTP authorization before treating DTP as documented.
+
+ASSISTANT TAKE
+Highest proven payment state is Requested / Final Bill present, not approved or issued. Next check is locating the signed DTP authorization or equivalent accepted support.
+
+FILE NOTE
+Payment review file includes CCC final bill language and estimate properties indicating DTP secured, with Tri Star / claim Payment Status shown as Requested. The signed DTP authorization is not included in the supplied documents. No language was located stating payment approved, approved for payment, or payment release approved. RR quarter replacement scope is generally consistent with Photo 01 showing RR quarter damage.

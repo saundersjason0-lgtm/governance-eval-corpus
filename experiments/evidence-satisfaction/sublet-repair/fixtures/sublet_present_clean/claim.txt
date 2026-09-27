@@ -1,0 +1,25 @@
+=== CLAIM FILE — SYNTHETIC SATISFACTION HARNESS ===
+Claim #: EVAL-SUBLET-PRESENT-CLEAN
+Vehicle: 2023 Toyota RAV4 XLE
+Operational Stage: Payment Review
+Payment Posture: Repair complete — payment pending review
+Repair Complete Date: 06/01/2026
+
+=== ESTIMATE OF RECORD ===
+Line 88: Frame straightening sublet | $890.00
+Line 22: Rear bumper replace | $520.00
+Estimate Total: $1,410.00
+
+=== PHOTOS ===
+Photo 1: Completed repair — vn-inv-sublet-02_photo.jpg
+
+=== DOCUMENTS ===
+Scan report: ON FILE
+Frame-house sublet invoice: ON FILE — vendor invoice matches Line 88 frame straightening sublet at $890.00
+
+=== ADAPTER META ===
+synthetic_harness: true
+repair_benchmark: sublet_repair_v1
+source_fixture: EVAL-SUBLET-MATCH-890 (matching $890 invoice; not SYN-INV-SUBLET-02 $925 variance)
+evidence_state: PRESENT
+target: sublet_invoice_support

@@ -1,0 +1,16 @@
+Claim #EVAL-CAL-ABSENT | 2020 Subaru Outback Limited — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+File is at Payment Review with repair complete date listed as 06/02/2026. Scan support is present for Line 142 via `Subaru_Scan_Report_88421.pdf`, and Photo 12 shows completed glass, but Line 88 static calibration lacks a matching calibration report in the supplied file.
+
+REVIEW FOCUS
+1. Line 88 — Static calibration: Documentation Verification. Estimate bills static calibration at $385.00, but the file states “Calibration report: NOT IN FILE.” At payment review, matching calibration documentation should be verified.
+
+ASSISTANT TAKE
+Next check is to obtain the calibration report or other accepted support for Line 88 before moving forward with payment handling.
+
+FILE NOTE
+Reviewed estimate, scan documentation, and photo evidence for the 2020 Subaru Outback. Pre/post scan support is present in `Subaru_Scan_Report_88421.pdf`, and Photo 12 documents completed glass. Static calibration is billed on Line 88, but no calibration report was included in the supplied file. Recommend verifying calibration documentation for Line 88.

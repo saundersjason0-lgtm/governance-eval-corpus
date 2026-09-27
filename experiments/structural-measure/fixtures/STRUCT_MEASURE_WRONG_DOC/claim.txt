@@ -1,0 +1,17 @@
+=== CLAIM FILE — SYNTHETIC STRUCTURAL MEASURE HARNESS ===
+Claim #: STRUCT-WRONG
+Vehicle: 2021 Honda Accord
+Operational Stage: Payment Review
+Payment Posture: Final Bill present — repair complete
+
+=== ESTIMATE OF RECORD ===
+Line 12: Structural set-up / measure | 2.5 hr | $385.00
+Estimate Total: $385.00
+
+=== DOCUMENTS ===
+Structural measurement / frame sheet: NOT IN FILE
+Generic shop information PDF: ON FILE — synthetic_generic_shop_info.txt (not a measurement report)
+
+=== ADAPTER META ===
+synthetic_harness: true
+fixture: STRUCT_MEASURE_WRONG_DOC

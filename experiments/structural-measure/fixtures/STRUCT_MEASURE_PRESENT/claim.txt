@@ -1,0 +1,21 @@
+=== CLAIM FILE — SYNTHETIC STRUCTURAL MEASURE HARNESS ===
+Claim #: STRUCT-PRESENT
+Vehicle: 2021 Honda Accord
+Operational Stage: Payment Review
+Payment Posture: Final Bill present — repair complete
+
+=== ESTIMATE OF RECORD ===
+Line 12: Structural set-up / measure | 2.5 hr | $385.00
+Line 22: Rear bumper replace | $520.00
+Estimate Total: $895.00
+
+=== PHOTOS ===
+Photo 1: Completed repair — synthetic
+
+=== DOCUMENTS ===
+Structural measurement / frame sheet: ON FILE — synthetic_structural_measurement_sheet.txt
+Final bill on estimate of record
+
+=== ADAPTER META ===
+synthetic_harness: true
+fixture: STRUCT_MEASURE_PRESENT

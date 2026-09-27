@@ -1,0 +1,84 @@
+{
+  "fixtures": [
+    {
+      "family": "dtp",
+      "evidence_state": "present",
+      "case_id": "EVAL-DTP-PRESENT",
+      "fixture_dir": "dtp_present",
+      "claim_file": "fixtures/dtp_present/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "dtp_absent"
+    },
+    {
+      "family": "dtp",
+      "evidence_state": "absent",
+      "case_id": "EVAL-DTP-ABSENT",
+      "fixture_dir": "dtp_absent",
+      "claim_file": "fixtures/dtp_absent/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "dtp_present"
+    },
+    {
+      "family": "scan",
+      "evidence_state": "present",
+      "case_id": "EVAL-SCAN-PRESENT",
+      "fixture_dir": "scan_present",
+      "claim_file": "fixtures/scan_present/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "scan_absent"
+    },
+    {
+      "family": "scan",
+      "evidence_state": "absent",
+      "case_id": "EVAL-SCAN-ABSENT",
+      "fixture_dir": "scan_absent",
+      "claim_file": "fixtures/scan_absent/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "scan_present"
+    },
+    {
+      "family": "calibration",
+      "evidence_state": "present",
+      "case_id": "EVAL-CAL-PRESENT",
+      "fixture_dir": "calibration_present",
+      "claim_file": "fixtures/calibration_present/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "calibration_absent"
+    },
+    {
+      "family": "calibration",
+      "evidence_state": "absent",
+      "case_id": "EVAL-CAL-ABSENT",
+      "fixture_dir": "calibration_absent",
+      "claim_file": "fixtures/calibration_absent/claim.txt",
+      "photo_case_id": null,
+      "invoice_case_id": null,
+      "pair_twin": "calibration_present"
+    },
+    {
+      "family": "sublet",
+      "evidence_state": "present",
+      "case_id": "EVAL-SUBLET-PRESENT",
+      "fixture_dir": "sublet_present",
+      "claim_file": "fixtures/sublet_present/claim.txt",
+      "photo_case_id": "SYN-INV-SUBLET-02",
+      "invoice_case_id": "SYN-INV-SUBLET-02",
+      "pair_twin": "sublet_absent"
+    },
+    {
+      "family": "sublet",
+      "evidence_state": "absent",
+      "case_id": "EVAL-SUBLET-ABSENT",
+      "fixture_dir": "sublet_absent",
+      "claim_file": "fixtures/sublet_absent/claim.txt",
+      "photo_case_id": "SYN-INV-SUBLET-02",
+      "invoice_case_id": null,
+      "pair_twin": "sublet_present"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 484 >>
+stream
+BT
+/F1 16 Tf
+72 750 Td (Vendor Invoice ? VN-ADV-10) Tj
+0 -24 Td
+/F1 11 Tf
+(Vendor Invoice ? VN-ADV-10) Tj
+0 -16 Td
+(Vendor: DRP Vendor Co) Tj
+0 -16 Td
+(Line # | Description | List | Net) Tj
+0 -16 Td
+(----------------------------------------) Tj
+0 -16 Td
+(Line  88 | Frame straightening sublet | $890.00) Tj
+0 -16 Td
+(         Estimate billed: $0.00  List delta: $890.00) Tj
+0 -16 Td
+(TOTAL: $890.00) Tj
+0 -16 Td
+(SYNTH HARNESS INVOICE ? reconcile to estimate of record) Tj
+0 -16 Td
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000776 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+846
+%%EOF

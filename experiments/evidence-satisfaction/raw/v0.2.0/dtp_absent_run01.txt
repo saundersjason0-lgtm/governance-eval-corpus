@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with a final bill/estimate of record and RR quarter damage photo support for Line 22. CCC header/properties state “DTP secured,” but the signed DTP authorization is not in the supplied documents.
+
+REVIEW FOCUS
+1. Payment/DTP Documentation: Estimate header states “FINAL BILL - DIRECTION TO PAY SECURED” and properties note says “DTP secured,” but Documents list “Signed DTP authorization: NOT IN FILE.” Verify signed DTP/authorization support before relying on DTP as documented.
+
+ASSISTANT TAKE
+Next check is to obtain or confirm the signed DTP authorization. The file supports payment requested, but no payment approval or release approval language is documented.
+
+FILE NOTE
+Reviewed Payment Review file for 2020 Toyota Camry. Estimate/final bill totals $5,110.00 and includes Line 22 RR quarter replacement, with Photo 01 showing RR quarter damage. CCC header/properties reference DTP secured, but the signed DTP authorization is not included in the supplied documents. Notes show payment requested only, with no payment approved or release-approved language located.

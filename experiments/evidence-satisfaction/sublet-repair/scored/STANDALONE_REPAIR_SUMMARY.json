@@ -1,0 +1,15 @@
+{
+  "scored_at": "2026-09-27T16:03:12Z",
+  "scorer": "standalone (no product-internal canonicalizer)",
+  "run_count": 12,
+  "versions": {
+    "v0.1.0": {
+      "runs": 6,
+      "correct_rate": 1.0
+    },
+    "v0.2.0": {
+      "runs": 6,
+      "correct_rate": 1.0
+    }
+  }
+}

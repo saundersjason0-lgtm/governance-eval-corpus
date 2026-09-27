@@ -1,0 +1,24 @@
+=== CLAIM FILE — SYNTHETIC SATISFACTION HARNESS ===
+Claim #: EVAL-SUBLET-ABSENT
+Vehicle: 2023 Toyota RAV4 XLE
+Operational Stage: Payment Review
+Payment Posture: Repair complete — payment pending review
+Repair Complete Date: 06/01/2026
+
+=== ESTIMATE OF RECORD ===
+Line 88: Frame straightening sublet | $890.00
+Line 22: Rear bumper replace | $520.00
+Estimate Total: $1,410.00
+
+=== PHOTOS ===
+Photo 1: Completed repair — vn-inv-sublet-02_photo.jpg
+
+=== DOCUMENTS ===
+Scan report: ON FILE
+Frame-house sublet invoice: NOT IN FILE
+
+=== ADAPTER META ===
+synthetic_harness: true
+source_fixture: SYN-INV-SUBLET-02 sublet-absent twin
+evidence_state: ABSENT
+target: sublet_invoice_support

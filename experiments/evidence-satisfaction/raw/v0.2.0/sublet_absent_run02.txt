@@ -1,0 +1,16 @@
+Claim #EVAL-SUBLET-ABSENT | 2023 Toyota RAV4 XLE — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with repair complete noted 06/01/2026. The estimate includes a frame straightening sublet charge, but the frame-house sublet invoice is listed as not in file.
+
+REVIEW FOCUS
+1. Line 88 — Frame straightening sublet | $890.00. Category: Documentation Verification. Frame-house sublet invoice is not in file; the completed repair photo (`vn-inv-sublet-02_photo.jpg`) may support repair status but does not verify the sublet vendor charge or amount.
+
+ASSISTANT TAKE
+Next check is to obtain or confirm the matching frame-house sublet invoice for Line 88. Scan report is listed as on file, so no scan documentation issue is raised from the supplied file.
+
+FILE NOTE
+Reviewed payment-stage file for the 2023 Toyota RAV4 XLE. Estimate total is $1,410.00, including Line 88 frame straightening sublet for $890.00 and Line 22 rear bumper replacement for $520.00. Repair complete is noted as 06/01/2026, and the photo provided is labeled completed repair. Frame-house sublet invoice is not in file and should be verified for the billed sublet charge.

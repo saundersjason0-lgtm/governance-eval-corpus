@@ -1,0 +1,16 @@
+Claim #STRUCT-ABSENT | 2021 Honda Accord — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+File is at payment review with the final bill present and repair complete. Line 12 bills structural set-up/measure, but the structural measurement/frame sheet is listed as not in file.
+
+REVIEW FOCUS
+1. Line 12 — Structural set-up / measure. Category: Documentation Verification. The billed structural measuring operation needs matching frame/measurement documentation; the claim file states “Structural measurement / frame sheet: NOT IN FILE.”
+
+ASSISTANT TAKE
+Next check is to obtain the structural measurement/frame sheet or carrier-accepted equivalent for Line 12.
+
+FILE NOTE
+Repair is complete and the final bill is present on the estimate of record. Estimate includes Line 12 for structural set-up/measure at 2.5 hours / $385.00. Matching structural measurement or frame documentation was not located in the supplied file. Recommend verifying support for Line 12 before completing review of that charge.

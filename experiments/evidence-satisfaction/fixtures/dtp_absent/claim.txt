@@ -1,0 +1,27 @@
+=== CLAIM FILE — SYNTHETIC SATISFACTION HARNESS ===
+Claim #: EVAL-DTP-ABSENT
+Vehicle: 2020 Toyota Camry
+Operational Stage: Payment Review
+Payment Posture: Final Bill/Auth Present — shop requested payment
+
+=== ESTIMATE / FINAL BILL (CCC) ===
+Header: FINAL BILL - DIRECTION TO PAY SECURED
+Estimate properties note: DTP secured
+Estimate Total: $5,110.00
+Line 22 — Repl RR Quarter panel, 8.0 body
+
+=== PHOTOS ===
+Photo 01 — RR quarter damage
+
+=== DOCUMENTS ===
+Final invoice / Final Bill on estimate of record
+Signed DTP authorization: NOT IN FILE
+
+=== NOTES ===
+No language stating payment approved / approved for payment / payment release approved.
+Tri Star / claim Payment Status: Requested
+
+=== ADAPTER META ===
+synthetic_harness: true
+source_fixture_substitution: SYN-BEACON-PAY-01 absent signed authorization twin
+evidence_state: ABSENT

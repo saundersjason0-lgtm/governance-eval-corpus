@@ -1,0 +1,25 @@
+=== CLAIM FILE — SYNTHETIC SATISFACTION HARNESS ===
+Claim #: EVAL-SCAN-ABSENT
+Vehicle: 2020 Subaru Outback Limited
+Operational Stage: Payment Review
+Payment Posture: Ready to pay
+Repair Complete Date: 06/02/2026
+
+=== ESTIMATE OF RECORD ===
+Line 30: Windshield replace | 2.0 hr | $420.00
+Line 88: Static calibration | 1.5 hr | $385.00
+Line 142: Pre/Post Scan | 1.0 hr | $425.00
+Estimate Total: $3,890.00
+
+=== DOCUMENTS ===
+Scan report: NOT IN FILE
+Calibration report: EyeSight_cal_0601.pdf (attached)
+
+=== PHOTOS ===
+Photo 12: Completed glass — outback_glass.jpg
+
+=== ADAPTER META ===
+synthetic_harness: true
+source_fixture: SYN-PAY-SCAN-02 scan-absent twin
+evidence_state: ABSENT
+target: scan_report_support

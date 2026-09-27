@@ -1,0 +1,4 @@
+SYNTHETIC STRUCTURAL MEASUREMENT SHEET — STRUCT_MEASURE_PRESENT
+Operation: Structural set-up / measure (Line 12)
+Frame measurement completed — dimensions recorded
+Matches billed structural measuring operation

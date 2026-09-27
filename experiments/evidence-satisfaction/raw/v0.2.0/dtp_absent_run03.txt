@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is in payment review with a final bill estimate showing “FINAL BILL - DIRECTION TO PAY SECURED” and properties note “DTP secured.” Payment is documented only as requested, and the signed DTP authorization is listed as not in file.
+
+REVIEW FOCUS
+1. DTP / authorization documentation: Signed DTP authorization not located in supplied documents. The estimate shows “DIRECTION TO PAY SECURED” / “DTP secured,” but the documents section states “Signed DTP authorization: NOT IN FILE”; verify the signed authorization before treating the payment request as document-complete.
+
+ASSISTANT TAKE
+Next check is the signed DTP authorization. No payment approval or release is evidenced in the supplied file.
+
+FILE NOTE
+Reviewed payment-stage file for 2020 Toyota Camry. Final bill estimate of record totals $5,110.00 and includes “DIRECTION TO PAY SECURED” / “DTP secured” language. RR quarter replacement is generally aligned with Photo 01 showing RR quarter damage. Signed DTP authorization is not in file, and payment is only documented as requested.

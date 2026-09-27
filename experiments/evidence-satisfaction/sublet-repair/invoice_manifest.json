@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0-sublet-repair",
+  "description": "Synthetic invoice manifest for sublet repair benchmark only.",
+  "cases": {
+    "EVAL-SUBLET-MATCH-890": {
+      "estimate_total": 1410.0,
+      "documents": [
+        {
+          "filename": "sat-sublet-match-890_invoice.pdf",
+          "format": "pdf",
+          "path": "invoices/EVAL-SUBLET-MATCH-890/sat-sublet-match-890_invoice.pdf",
+          "chat_preview": "invoices/EVAL-SUBLET-MATCH-890/sat-sublet-match-890_invoice.pdf.preview.jpg",
+          "title": "Vendor Invoice — EVAL-SUBLET-MATCH-890",
+          "vendor": "DRP Vendor Co",
+          "total": 890.0,
+          "lines": [
+            {
+              "line": 88,
+              "description": "Frame straightening sublet",
+              "amount": 890.0,
+              "estimate_amount": 890.0,
+              "list_price": 890.0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

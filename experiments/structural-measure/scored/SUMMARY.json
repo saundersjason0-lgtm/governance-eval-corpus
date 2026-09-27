@@ -1,0 +1,33 @@
+{
+  "scored_at": "2026-09-01T20:01:13Z",
+  "run_count": 24,
+  "versions": {
+    "v0.2.1": {
+      "runs": 12,
+      "correct_rate": 1.0,
+      "repeatability_by_case": {
+        "STRUCT_MEASURE_ABSENT": "3/3",
+        "STRUCT_MEASURE_PREMATURE_STAGE": "3/3",
+        "STRUCT_MEASURE_PRESENT": "3/3",
+        "STRUCT_MEASURE_WRONG_DOC": "3/3"
+      },
+      "bold_markdown_outputs": 0,
+      "false_suppressions": [],
+      "false_publications": []
+    },
+    "v0.2.2": {
+      "runs": 12,
+      "correct_rate": 1.0,
+      "repeatability_by_case": {
+        "STRUCT_MEASURE_ABSENT": "3/3",
+        "STRUCT_MEASURE_PREMATURE_STAGE": "3/3",
+        "STRUCT_MEASURE_PRESENT": "3/3",
+        "STRUCT_MEASURE_WRONG_DOC": "3/3"
+      },
+      "bold_markdown_outputs": 0,
+      "false_suppressions": [],
+      "false_publications": []
+    }
+  },
+  "promotion_ready": true
+}

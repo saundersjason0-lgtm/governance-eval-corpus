@@ -1,0 +1,15 @@
+Claim #STRUCT-ABSENT | 2021 Honda Accord — Claim Review
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with final bill present and repair complete. Estimate Line 12 bills structural set-up / measure, but the document inventory states the structural measurement / frame sheet is not in file.
+
+REVIEW FOCUS
+1. Line 12 Structural set-up / measure. Doc Verify: At repair-complete/payment-review stage, this billed operation needs a matching structural measurement or frame sheet. The supplied file states “Structural measurement / frame sheet: NOT IN FILE,” so support for Line 12 is not located.
+
+ASSISTANT TAKE
+Request the structural measurement/frame report matching Line 12 before treating the final-bill documentation package as complete.
+
+FILE NOTE
+Reviewed Payment Review file for the 2021 Honda Accord. Estimate of record totals $895.00 and includes Line 12 structural set-up / measure and Line 22 rear bumper replacement. Final bill is present, but the structural measurement/frame sheet is listed as not in file, leaving Line 12 documentation unresolved. No photo-to-estimate conflict was identified from the supplied completed-repair photo.

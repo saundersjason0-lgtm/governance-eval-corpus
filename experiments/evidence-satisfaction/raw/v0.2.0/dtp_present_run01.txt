@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-PRESENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NO OPEN ITEMS
+
+CURRENT PICTURE
+ALIGNED
+Payment review file shows `FINAL BILL - DIRECTION TO PAY SECURED`, estimate properties note `DTP secured`, final bill present, and signed Direction to Pay authorization visible in Photo 02 / Signed DTP PDF. Line 22 RR quarter replacement aligns by area with Photo 01 — `RR quarter damage`.
+
+REVIEW FOCUS
+No material review items.
+
+ASSISTANT TAKE
+Highest proven payment state is Final Bill/Auth Present / Requested. No payment approval or issuance proof is shown, so keep the payment state at requested unless a release/issuance artifact is added.
+
+FILE NOTE
+Reviewed payment-stage file for 2020 Toyota Camry. Estimate of record shows final bill and DTP secured, with signed Direction to Pay authorization visible in the file. RR quarter scope aligns with supplied RR quarter damage photo. No material documentation gaps were identified in the supplied claim file.

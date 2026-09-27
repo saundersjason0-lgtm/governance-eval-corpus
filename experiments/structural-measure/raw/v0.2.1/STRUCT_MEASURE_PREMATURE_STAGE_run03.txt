@@ -1,0 +1,16 @@
+Claim #STRUCT-PREMATURE | 2021 Honda Accord — Claim Review
+
+STATUS: NO OPEN ITEMS
+
+CURRENT PICTURE
+ALIGNED
+The file shows the vehicle is in repair and not at final bill stage. Line 12 lists structural set-up/measure as planned, and the structural measurement sheet is noted as not in file.
+
+REVIEW FOCUS
+No material review items.
+
+ASSISTANT TAKE
+Next check: if Line 12 is completed and carried forward at final bill, request the matching structural measurement/frame sheet.
+
+FILE NOTE
+Reviewed the estimate and document status. The vehicle is in repair, with repair in progress and no final bill submitted. Structural measurement documentation is not currently in file, but the operation is listed as planned rather than final-billed. Verify the frame sheet if the structural measure operation is completed and submitted for payment.

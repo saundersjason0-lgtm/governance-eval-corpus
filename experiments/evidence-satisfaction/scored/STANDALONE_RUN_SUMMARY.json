@@ -1,0 +1,45 @@
+{
+  "scored_at": "2026-09-27T16:03:10Z",
+  "scorer": "standalone (no product-internal canonicalizer)",
+  "run_count": 48,
+  "versions": {
+    "v0.1.0": {
+      "runs": 24,
+      "correct_rate": 0.8333,
+      "repeatability_by_case": {
+        "EVAL-CAL-ABSENT": "3/3",
+        "EVAL-CAL-PRESENT": "3/3",
+        "EVAL-DTP-ABSENT": "2/3",
+        "EVAL-DTP-PRESENT": "3/3",
+        "EVAL-SCAN-ABSENT": "3/3",
+        "EVAL-SCAN-PRESENT": "3/3",
+        "EVAL-SUBLET-ABSENT": "3/3",
+        "EVAL-SUBLET-PRESENT": "0/3"
+      },
+      "false_suppressions": [
+        "EVAL-DTP-ABSENT"
+      ],
+      "false_publications": [
+        "EVAL-SUBLET-PRESENT"
+      ]
+    },
+    "v0.2.0": {
+      "runs": 24,
+      "correct_rate": 0.875,
+      "repeatability_by_case": {
+        "EVAL-CAL-ABSENT": "3/3",
+        "EVAL-CAL-PRESENT": "3/3",
+        "EVAL-DTP-ABSENT": "3/3",
+        "EVAL-DTP-PRESENT": "3/3",
+        "EVAL-SCAN-ABSENT": "3/3",
+        "EVAL-SCAN-PRESENT": "3/3",
+        "EVAL-SUBLET-ABSENT": "3/3",
+        "EVAL-SUBLET-PRESENT": "0/3"
+      },
+      "false_suppressions": [],
+      "false_publications": [
+        "EVAL-SUBLET-PRESENT"
+      ]
+    }
+  }
+}

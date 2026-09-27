@@ -1,0 +1,16 @@
+Claim #EVAL-SCAN-ABSENT | 2020 Subaru Outback Limited — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with repair complete date 06/02/2026. Windshield replacement and static calibration have matching support, but the billed pre/post scan does not have a scan report in the supplied file.
+
+REVIEW FOCUS
+1. Line 142 – Pre/Post Scan: Doc Verify. Estimate bills 1.0 hr / $425.00, but the document list states “Scan report: NOT IN FILE.” At Payment Review/repair complete, matching scan documentation should be verified.
+
+ASSISTANT TAKE
+Next check is the missing scan report for line 142. The calibration line appears documented by EyeSight_cal_0601.pdf.
+
+FILE NOTE
+Reviewed estimate, documents, and photo evidence for the 2020 Subaru Outback. Photo 12 shows completed glass, and EyeSight_cal_0601.pdf supports the static calibration line. The estimate includes a pre/post scan charge on line 142, but no scan report was located in the supplied file. Recommend obtaining or verifying scan documentation for that charge.

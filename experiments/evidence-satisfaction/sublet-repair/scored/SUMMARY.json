@@ -1,0 +1,40 @@
+{
+  "scored_at": "2026-09-01T15:01:28Z",
+  "run_count": 12,
+  "versions": {
+    "v0.1.0": {
+      "present_false_publication_rate": 0.0,
+      "absent_catch_rate": 1.0,
+      "confusion_matrix": {
+        "true_publication": 3,
+        "true_suppression": 3
+      },
+      "substantive_repeatability": {
+        "sublet_absent": "3/3",
+        "sublet_present": "3/3"
+      },
+      "paired_discrimination": "3/3",
+      "mean_input_tokens": 7566.5,
+      "mean_output_tokens": 1284.0,
+      "mean_reasoning_tokens": 1034.0,
+      "mean_latency_s": 19.8785
+    },
+    "v0.2.0": {
+      "present_false_publication_rate": 0.0,
+      "absent_catch_rate": 1.0,
+      "confusion_matrix": {
+        "true_publication": 3,
+        "true_suppression": 3
+      },
+      "substantive_repeatability": {
+        "sublet_absent": "3/3",
+        "sublet_present": "3/3"
+      },
+      "paired_discrimination": "3/3",
+      "mean_input_tokens": 8413.166666666666,
+      "mean_output_tokens": 1193.6666666666667,
+      "mean_reasoning_tokens": 861.6666666666666,
+      "mean_latency_s": 24.35183333333333
+    }
+  }
+}

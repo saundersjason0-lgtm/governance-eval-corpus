@@ -1,0 +1,15 @@
+Claim #STRUCT-PREMATURE | 2021 Honda Accord — Claim Review
+STATUS: NO OPEN ITEMS
+
+CURRENT PICTURE
+ALIGNED
+The file shows the vehicle is in repair, not at final bill, with line 12 structural set-up/measure listed as planned and line 22 rear bumper replacement in progress. The structural measurement/frame sheet is not in file, but that support is a completion/final-bill check rather than a current issue at this stage.
+
+REVIEW FOCUS
+No material review items.
+
+ASSISTANT TAKE
+Next check should be at repair completion or final bill to confirm the structural/frame measurement report supports line 12.
+
+FILE NOTE
+Reviewed supplied estimate and document status. Line 12 lists planned structural set-up/measure, and the claim is documented as repair in progress with no final bill. Structural measurement/frame sheet is not in file, but the file is not yet at the stage where that documentation is due for final review. No material review items at this time.

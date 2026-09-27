@@ -1,0 +1,32 @@
+{
+  "repair_id": "eval_v0.2_sublet_benchmark_repair",
+  "parent_experiment": "evidence_satisfaction_champion_challenger",
+  "purpose": "Repair contaminated sublet-present cell ($925 vs $890 invoice variance); 12 API calls only.",
+  "model": "gpt-5.5",
+  "reasoning_effort": "high",
+  "temperature": "omitted",
+  "runs_per_cell": 3,
+  "versions": ["v0.1.0", "v0.2.0"],
+  "planned_calls": 12,
+  "corpus_source": "../corpus",
+  "operator_prompt_source": "../PROMPT.txt",
+  "original_contamination": {
+    "fixture": "EVAL-SUBLET-PRESENT",
+    "estimate_line_88": 890.0,
+    "attached_invoice_case": "SYN-INV-SUBLET-02",
+    "invoice_line_88": 925.0,
+    "failure_mode": "BENCHMARK_MISMATCH — variance Focus not support-gap test"
+  },
+  "golden_sha256": "88c0bac06a5e8f1137902fb7d7ac3254b4c715822427d2b72276b0cb21c42640",
+  "completed_at": "2026-09-01T15:01:28Z",
+  "repair_result": {
+    "v0.1.0": "3/3 present + 3/3 absent paired",
+    "v0.2.0": "3/3 present + 3/3 absent paired"
+  },
+  "repair_fixture": {
+    "present_case": "EVAL-SUBLET-PRESENT-CLEAN",
+    "absent_case": "EVAL-SUBLET-ABSENT-CLEAN",
+    "invoice_case": "EVAL-SUBLET-MATCH-890",
+    "invoice_line_88": 890.0
+  }
+}

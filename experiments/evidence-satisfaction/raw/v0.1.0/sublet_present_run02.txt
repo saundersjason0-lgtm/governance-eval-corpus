@@ -1,0 +1,16 @@
+Claim #EVAL-SUBLET-PRESENT | 2023 Toyota RAV4 XLE — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+Payment review file shows repair complete with an estimate of record and a frame-house vendor invoice. The sublet operation is supported, but the attached vendor invoice amount does not match the estimate amount for Line 88.
+
+REVIEW FOCUS
+1. Line 88 — Frame straightening sublet. Category: Invoice variance. Estimate of Record lists $890.00, but Vendor Invoice SYN-INV-SUBLET-02 lists Line 88 at $925.00, a $35.00 variance over the requested $25 threshold. The claim text says the invoice matches $890.00, so the invoice amount should be reconciled against the estimate before payment review is completed.
+
+ASSISTANT TAKE
+Next check is amount alignment for the Line 88 sublet charge. No separate issue is identified from the completed-repair photo or the scan report statement.
+
+FILE NOTE
+Payment review file includes Estimate of Record totaling $1,410.00 with Line 88 frame straightening sublet at $890.00 and Line 22 rear bumper replacement at $520.00. Attached Vendor Invoice SYN-INV-SUBLET-02 supports the Line 88 frame straightening sublet operation but lists $925.00, creating a $35.00 variance from the estimate. Completed repair photo is present. Recommend reconciling the Line 88 invoice amount to the estimate before further payment handling.

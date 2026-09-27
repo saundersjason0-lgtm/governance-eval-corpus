@@ -1,0 +1,16 @@
+=== CLAIM FILE — SYNTHETIC STRUCTURAL MEASURE HARNESS ===
+Claim #: STRUCT-PREMATURE
+Vehicle: 2021 Honda Accord
+Operational Stage: In Repair
+Payment Posture: Repair in progress — not final bill
+
+=== ESTIMATE OF RECORD ===
+Line 12: Structural set-up / measure | 2.5 hr | $385.00 (planned)
+Line 22: Rear bumper replace | in progress
+
+=== DOCUMENTS ===
+Structural measurement / frame sheet: NOT IN FILE
+
+=== ADAPTER META ===
+synthetic_harness: true
+fixture: STRUCT_MEASURE_PREMATURE_STAGE

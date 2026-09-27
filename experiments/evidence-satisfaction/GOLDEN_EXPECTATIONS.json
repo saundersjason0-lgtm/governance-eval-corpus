@@ -1,0 +1,109 @@
+{
+  "description": "Golden substantive expectations for evidence-resolution champion/challenger (pre-API)",
+  "cases": [
+    {
+      "case_id": "EVAL-DTP-PRESENT",
+      "family": "dtp",
+      "evidence_state": "present",
+      "target_candidate": "dtp_signed_authorization",
+      "expected_resolution": "SATISFIED",
+      "target_published": false,
+      "target_suppressed": true,
+      "forbidden_in_review_focus": [
+        "(?i)(doc verify|documentation verification).{0,120}(dtp|direction to pay|authorization)"
+      ],
+      "notes": "Signed DTP supplied; DTP secured note on estimate — authorization doc gap should extinguish"
+    },
+    {
+      "case_id": "EVAL-DTP-ABSENT",
+      "family": "dtp",
+      "evidence_state": "absent",
+      "target_candidate": "dtp_signed_authorization",
+      "expected_resolution": "UNRESOLVED",
+      "target_published": true,
+      "target_suppressed": false,
+      "required_in_review_focus": [
+        "(?i)(dtp|direction to pay|authorization).{0,160}(doc verify|documentation|not in file|not located|verify)"
+      ],
+      "notes": "DTP secured note without signed artifact — documentation gap should publish"
+    },
+    {
+      "case_id": "EVAL-SCAN-PRESENT",
+      "family": "scan",
+      "evidence_state": "present",
+      "target_candidate": "post_scan_support",
+      "expected_resolution": "SATISFIED",
+      "target_published": false,
+      "target_suppressed": true,
+      "forbidden_in_review_focus": [
+        "(?i)(doc verify|documentation verification).{0,120}(scan|pre/post)"
+      ],
+      "notes": "Scan report on file at payment review"
+    },
+    {
+      "case_id": "EVAL-SCAN-ABSENT",
+      "family": "scan",
+      "evidence_state": "absent",
+      "target_candidate": "post_scan_support",
+      "expected_resolution": "UNRESOLVED",
+      "target_published": true,
+      "target_suppressed": false,
+      "required_in_review_focus": [
+        "(?i)(scan|pre/post).{0,160}(doc verify|documentation|not in file|not located|verify)"
+      ],
+      "notes": "Billed scan without report at payment review"
+    },
+    {
+      "case_id": "EVAL-CAL-PRESENT",
+      "family": "calibration",
+      "evidence_state": "present",
+      "target_candidate": "calibration_support",
+      "expected_resolution": "SATISFIED",
+      "target_published": false,
+      "target_suppressed": true,
+      "forbidden_in_review_focus": [
+        "(?i)(doc verify|documentation verification).{0,120}(calib|calibration|static cal)"
+      ],
+      "notes": "Calibration report on file"
+    },
+    {
+      "case_id": "EVAL-CAL-ABSENT",
+      "family": "calibration",
+      "evidence_state": "absent",
+      "target_candidate": "calibration_support",
+      "expected_resolution": "UNRESOLVED",
+      "target_published": true,
+      "target_suppressed": false,
+      "required_in_review_focus": [
+        "(?i)(calib|calibration|static cal).{0,160}(doc verify|documentation|not in file|not located|verify)"
+      ],
+      "notes": "Billed calibration without report"
+    },
+    {
+      "case_id": "EVAL-SUBLET-PRESENT",
+      "family": "sublet",
+      "evidence_state": "present",
+      "target_candidate": "sublet_invoice_support",
+      "expected_resolution": "SATISFIED",
+      "target_published": false,
+      "target_suppressed": true,
+      "forbidden_in_review_focus": [
+        "(?i)(sublet).{0,160}(invoice.{0,40}not (in file|located)|support not located)"
+      ],
+      "notes": "Matching sublet invoice attached; invoice variance not scored as target"
+    },
+    {
+      "case_id": "EVAL-SUBLET-ABSENT",
+      "family": "sublet",
+      "evidence_state": "absent",
+      "target_candidate": "sublet_invoice_support",
+      "expected_resolution": "UNRESOLVED",
+      "target_published": true,
+      "target_suppressed": false,
+      "required_in_review_focus": [
+        "(?i)(sublet|frame).{0,160}(invoice|doc verify|documentation|not in file|not located)"
+      ],
+      "notes": "Sublet line without vendor invoice"
+    }
+  ]
+}

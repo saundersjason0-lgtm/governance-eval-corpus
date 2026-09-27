@@ -1,0 +1,61 @@
+{
+  "description": "Golden expectations for structural measurement API benchmark",
+  "cases": [
+    {
+      "case_id": "STRUCT_MEASURE_ABSENT",
+      "family": "structural_measure",
+      "evidence_state": "absent",
+      "target_candidate": "structural_measure_support",
+      "expected_resolution": "UNRESOLVED",
+      "required_in_review_focus": [
+        "structural.*(set-?up|measure|measuring)",
+        "frame.*measure|measurement.*(sheet|report|documentation)",
+        "support not located|not established|not in file|not located"
+      ],
+      "forbidden_in_review_focus": [
+        "not performed",
+        "fraud",
+        "overbill"
+      ]
+    },
+    {
+      "case_id": "STRUCT_MEASURE_PRESENT",
+      "family": "structural_measure",
+      "evidence_state": "present",
+      "target_candidate": "structural_measure_support",
+      "expected_resolution": "SATISFIED",
+      "required_in_review_focus": [],
+      "forbidden_in_review_focus": [
+        "structural.*measure.*not (located|in file|established)",
+        "frame.*measure.*not (located|in file|established)",
+        "measurement.*(sheet|report).*not (located|in file)"
+      ]
+    },
+    {
+      "case_id": "STRUCT_MEASURE_WRONG_DOC",
+      "family": "structural_measure",
+      "evidence_state": "absent",
+      "target_candidate": "structural_measure_support",
+      "expected_resolution": "UNRESOLVED",
+      "required_in_review_focus": [
+        "structural.*(set-?up|measure|measuring)",
+        "frame.*measure|measurement.*(sheet|report|documentation)",
+        "support not located|not established|not in file|not located"
+      ],
+      "forbidden_in_review_focus": []
+    },
+    {
+      "case_id": "STRUCT_MEASURE_PREMATURE_STAGE",
+      "family": "structural_measure",
+      "evidence_state": "deferred",
+      "target_candidate": "structural_measure_support",
+      "expected_resolution": "NOT_APPLICABLE",
+      "required_in_review_focus": [],
+      "forbidden_in_review_focus": [
+        "structural.*(set-?up|measure).*(not located|not in file|not established)",
+        "frame measurement.*(not located|not in file)",
+        "measurement sheet.*(not located|not in file)"
+      ]
+    }
+  ]
+}

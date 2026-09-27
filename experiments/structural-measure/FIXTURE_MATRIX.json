@@ -1,0 +1,32 @@
+{
+  "fixtures": [
+    {
+      "fixture_dir": "STRUCT_MEASURE_ABSENT",
+      "case_id": "STRUCT_MEASURE_ABSENT",
+      "family": "structural_measure",
+      "evidence_state": "absent",
+      "claim_file": "fixtures/STRUCT_MEASURE_ABSENT/claim.txt"
+    },
+    {
+      "fixture_dir": "STRUCT_MEASURE_PRESENT",
+      "case_id": "STRUCT_MEASURE_PRESENT",
+      "family": "structural_measure",
+      "evidence_state": "present",
+      "claim_file": "fixtures/STRUCT_MEASURE_PRESENT/claim.txt"
+    },
+    {
+      "fixture_dir": "STRUCT_MEASURE_WRONG_DOC",
+      "case_id": "STRUCT_MEASURE_WRONG_DOC",
+      "family": "structural_measure",
+      "evidence_state": "absent",
+      "claim_file": "fixtures/STRUCT_MEASURE_WRONG_DOC/claim.txt"
+    },
+    {
+      "fixture_dir": "STRUCT_MEASURE_PREMATURE_STAGE",
+      "case_id": "STRUCT_MEASURE_PREMATURE_STAGE",
+      "family": "structural_measure",
+      "evidence_state": "deferred",
+      "claim_file": "fixtures/STRUCT_MEASURE_PREMATURE_STAGE/claim.txt"
+    }
+  ]
+}

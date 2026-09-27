@@ -1,0 +1,52 @@
+{
+  "scored_at": "2026-09-01T15:01:28Z",
+  "versions": {
+    "v0.1.0": {
+      "present_false_publication_rate": 0.0,
+      "absent_catch_rate": 0.9166666666666666,
+      "confusion_matrix": {
+        "true_publication": 11,
+        "true_suppression": 12,
+        "false_suppression": 1
+      },
+      "substantive_repeatability": {
+        "calibration_absent": "3/3",
+        "calibration_present": "3/3",
+        "dtp_absent": "2/3",
+        "dtp_present": "3/3",
+        "scan_absent": "3/3",
+        "scan_present": "3/3",
+        "sublet_absent": "3/3",
+        "sublet_present": "3/3"
+      },
+      "paired_discrimination": "3/3",
+      "original_48call_metrics": {
+        "present_false_publication_rate": 0.25,
+        "absent_catch_rate": 0.9166666666666666
+      }
+    },
+    "v0.2.0": {
+      "present_false_publication_rate": 0.0,
+      "absent_catch_rate": 1.0,
+      "confusion_matrix": {
+        "true_publication": 12,
+        "true_suppression": 12
+      },
+      "substantive_repeatability": {
+        "calibration_absent": "3/3",
+        "calibration_present": "3/3",
+        "dtp_absent": "3/3",
+        "dtp_present": "3/3",
+        "scan_absent": "3/3",
+        "scan_present": "3/3",
+        "sublet_absent": "3/3",
+        "sublet_present": "3/3"
+      },
+      "paired_discrimination": "3/3",
+      "original_48call_metrics": {
+        "present_false_publication_rate": 0.25,
+        "absent_catch_rate": 1.0
+      }
+    }
+  }
+}

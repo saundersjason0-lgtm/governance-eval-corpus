@@ -1,0 +1,32 @@
+{
+  "description": "Frozen golden expectations for sublet repair benchmark (pre-API).",
+  "frozen_at": "2026-09-01T14:52:00Z",
+  "cases": [
+    {
+      "case_id": "EVAL-SUBLET-PRESENT-CLEAN",
+      "family": "sublet",
+      "evidence_state": "present",
+      "target_candidate": "sublet_invoice_support",
+      "expected_resolution": "SATISFIED",
+      "target_published": false,
+      "target_suppressed": true,
+      "forbidden_in_review_focus": [
+        "(?i)(sublet).{0,160}(invoice.{0,40}not (in file|located)|support not located)"
+      ],
+      "notes": "Matching $890 sublet invoice attached; support-gap Focus must be absent"
+    },
+    {
+      "case_id": "EVAL-SUBLET-ABSENT-CLEAN",
+      "family": "sublet",
+      "evidence_state": "absent",
+      "target_candidate": "sublet_invoice_support",
+      "expected_resolution": "UNRESOLVED",
+      "target_published": true,
+      "target_suppressed": false,
+      "required_in_review_focus": [
+        "(?i)(sublet|frame).{0,160}(invoice|doc verify|documentation|not in file|not located)"
+      ],
+      "notes": "Sublet line without applicable vendor invoice"
+    }
+  ]
+}

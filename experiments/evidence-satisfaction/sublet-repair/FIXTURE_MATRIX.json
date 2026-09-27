@@ -1,0 +1,24 @@
+{
+  "fixtures": [
+    {
+      "family": "sublet",
+      "evidence_state": "present",
+      "case_id": "EVAL-SUBLET-PRESENT-CLEAN",
+      "fixture_dir": "sublet_present_clean",
+      "claim_file": "fixtures/sublet_present_clean/claim.txt",
+      "photo_case_id": "SYN-INV-SUBLET-02",
+      "invoice_case_id": "EVAL-SUBLET-MATCH-890",
+      "pair_twin": "sublet_absent_clean"
+    },
+    {
+      "family": "sublet",
+      "evidence_state": "absent",
+      "case_id": "EVAL-SUBLET-ABSENT-CLEAN",
+      "fixture_dir": "sublet_absent_clean",
+      "claim_file": "fixtures/sublet_absent_clean/claim.txt",
+      "photo_case_id": "SYN-INV-SUBLET-02",
+      "invoice_case_id": null,
+      "pair_twin": "sublet_present_clean"
+    }
+  ]
+}

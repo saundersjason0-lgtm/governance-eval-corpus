@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with a CCC final bill showing “DIRECTION TO PAY SECURED” and estimate properties note “DTP secured.” The signed DTP authorization itself is not in the supplied documents, and there is no payment approval or release language in the notes.
+
+REVIEW FOCUS
+1. Payment documentation: Signed DTP authorization not located in file. CCC header/properties state “DTP secured,” but Documents list “Signed DTP authorization: NOT IN FILE.” Verify whether the signed authorization artifact is available before relying on the authorization record.
+
+ASSISTANT TAKE
+Next check is the missing signed DTP document, since the file otherwise supports final-bill/requested-payment handling but not payment approval or issuance.
+
+FILE NOTE
+Reviewed Payment Review file for 2020 Toyota Camry. CCC estimate/final bill reflects “DIRECTION TO PAY SECURED” with estimate properties note “DTP secured,” and the final bill is present at $5,110.00. Signed DTP authorization was not located in the supplied documents. No language was found indicating payment approved, payment release approved, or payment issued.

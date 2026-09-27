@@ -1,0 +1,16 @@
+Claim #EVAL-DTP-ABSENT | 2020 Toyota Camry — Claim Review
+
+STATUS: NEEDS REVIEW
+
+CURRENT PICTURE
+REVIEW
+The file is at Payment Review with the final bill on the estimate of record and Tri Star/payment status shown as “Requested.” The estimate says “DTP secured,” but the signed DTP authorization is listed as not in file, and no note states payment was approved or released.
+
+REVIEW FOCUS
+1. Payment documentation: DTP verification needed. Estimate header states “FINAL BILL - DIRECTION TO PAY SECURED” and the estimate properties note says “DTP secured,” but the document list states “Signed DTP authorization: NOT IN FILE.” Verify the signed DTP authorization or other carrier-accepted support before relying on the DTP-secured notation.
+
+ASSISTANT TAKE
+Next check is to confirm the signed DTP authorization and keep payment status at “Requested” unless separate payment approval or issuance support is added.
+
+FILE NOTE
+Reviewed Payment Review file for EVAL-DTP-ABSENT. Estimate/final bill reflects “DTP secured,” and Tri Star/payment status is listed as “Requested,” but the signed DTP authorization is not included in the supplied documents. No payment approval or release language was located in the notes provided. Recommend verifying DTP support before treating the DTP notation as documented.
