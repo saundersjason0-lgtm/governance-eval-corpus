@@ -32,6 +32,7 @@ that holds one time in three is not a property.
 | Experiment | Runs | Result |
 |---|---|---|
 | Evidence satisfaction (v0.1.0 → v0.2.0) | 48 | correct rate 0.833 → **0.875** |
+| — terminal response mode (absent cells) | 24 | pass rate 0.167 → **0.083** (the challenger regressed here) |
 | Structural measure (v0.2.1, v0.2.2) | 24 | correct rate **1.0** / **1.0** |
 | Sublet-repair correction pack | 12 | correct rate **1.0** / **1.0** |
 
@@ -104,7 +105,21 @@ built to be used — run it against your own models, break it, improve it.
 Synthetic fixtures in one narrow domain. Single-rater goldens (the corpus
 author). One reference model. No independent annotation study. This is not a
 safety benchmark, and it doesn't certify compliance with anything. It measures
-three governance behaviors, repeatably, and shows its work.
+four governance behaviors, repeatably, and shows its work.
+
+## Changelog
+
+- **v0.2.0** (2026-09-28) — new dimension: terminal response mode on
+  evidence-absent cells. A system that abstains cleanly and one that
+  hallucinates quietly both fail a conclusion-stability check the same way,
+  so the mode (ABSTAIN / ESCALATE / QUIET_ASSERT / UNMARKED) is now scored
+  separately on the 24 absent runs. All prior verdicts reproduce unchanged;
+  the frozen v0.1.0 corpus still rebuilds byte-identically. Reference
+  finding: the model flags gaps (resolution 0.833 → 0.875) but rarely states
+  its terminal behavior explicitly (0.167 → 0.083) — the v0.2.0 challenger
+  regressed on the new dimension while improving the old one.
+- **v0.1.0** (2026-09-27) — initial public release: paired counterfactual
+  fixtures, deterministic goldens, champion/challenger, repeat runs.
 
 ## License
 

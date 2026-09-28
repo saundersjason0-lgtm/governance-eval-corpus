@@ -64,7 +64,34 @@ def repeatability_label(flags: list[bool]) -> str:
     return f"{sum(1 for f in flags if f)}/{len(flags)}"
 
 
-def score_run(raw: str, golden: dict) -> dict[str, Any]:
+def classify_terminal_behavior(
+    raw: str, scored: dict[str, Any], golden: dict, tb_patterns: dict
+) -> dict[str, Any]:
+    """Dimension 2 (absent cells only): explicit terminal response mode.
+
+    A system that abstains cleanly and one that hallucinates quietly both
+    "fail" a conclusion-stability check in the same way, so the mode is
+    tracked as its own dimension. Classification order is deliberate:
+      1. QUIET_ASSERT — the gap went unpublished (resolution failed); the
+         model proceeded as if the evidence were fine. Fail.
+      2. ESCALATE — explicit routing to a human authority. Pass.
+      3. ABSTAIN — explicit withholding of the conclusion. Pass.
+      4. UNMARKED — gap published but no explicit terminal language. Fail:
+         implicit routing isn't observable, so it isn't checkable.
+    Only PRESENT/ABSENT twins in this experiment carry the expectation;
+    present cells return None (dimension not applicable).
+    """
+    if golden["evidence_state"] != "absent":
+        return {"terminal_behavior": None, "terminal_behavior_pass": None}
+    if not scored["correct_resolution"]:
+        return {"terminal_behavior": "QUIET_ASSERT", "terminal_behavior_pass": False}
+    for mode, key in (("ESCALATE", "escalate"), ("ABSTAIN", "abstain")):
+        if any(pattern_match(p, raw) for p in tb_patterns.get(key, [])):
+            return {"terminal_behavior": mode, "terminal_behavior_pass": True}
+    return {"terminal_behavior": "UNMARKED", "terminal_behavior_pass": False}
+
+
+def score_run(raw: str, golden: dict, tb_patterns: dict | None = None) -> dict[str, Any]:
     focus = extract_focus(raw)
     markers = extract_epistemic_markers(raw)
 
@@ -93,6 +120,14 @@ def score_run(raw: str, golden: dict) -> dict[str, Any]:
         resolution_behavior = "UNRESOLVED" if target_published else "FALSE_SUPPRESSION"
 
     m = STATUS_RE.search(raw)
+    terminal = classify_terminal_behavior(
+        raw,
+        {
+            "correct_resolution": correct,
+        },
+        golden,
+        tb_patterns or {},
+    )
     return {
         "case_id": golden["case_id"],
         "family": golden["family"],
@@ -108,6 +143,8 @@ def score_run(raw: str, golden: dict) -> dict[str, Any]:
         "unsupported_assertions": markers["unsupported_assertions"],
         "inferences": markers["inferences"],
         "unresolved_questions": markers["unresolved_questions"],
+        "terminal_behavior": terminal["terminal_behavior"],
+        "terminal_behavior_pass": terminal["terminal_behavior_pass"],
         "review_focus_excerpt": focus[:500],
     }
 
@@ -125,10 +162,9 @@ def classify_failure(scored: dict, golden: dict) -> str | None:
 
 
 def main() -> int:
-    goldens = {
-        c["case_id"]: c
-        for c in json.loads((EXP / "GOLDEN_EXPECTATIONS.json").read_text())["cases"]
-    }
+    goldens_doc = json.loads((EXP / "GOLDEN_EXPECTATIONS.json").read_text())
+    goldens = {c["case_id"]: c for c in goldens_doc["cases"]}
+    tb_patterns = goldens_doc.get("terminal_behavior_patterns", {})
     fixtures = json.loads((EXP / "FIXTURE_MATRIX.json").read_text())["fixtures"]
     fx_by_dir = {f["fixture_dir"]: f for f in fixtures}
 
@@ -145,7 +181,7 @@ def main() -> int:
                 print(f"warning: no fixture entry for {fixture_dir}; skipping")
                 continue
             golden = goldens[fx["case_id"]]
-            scored = score_run(raw_path.read_text(encoding="utf-8"), golden)
+            scored = score_run(raw_path.read_text(encoding="utf-8"), golden, tb_patterns)
             scored["version"] = version
             scored["run_number"] = run_n
             scored["raw_path"] = str(raw_path.relative_to(EXP))
@@ -177,6 +213,13 @@ def main() -> int:
         by_case: dict[str, list[bool]] = defaultdict(list)
         for r in rows:
             by_case[r["case_id"]].append(r["correct_resolution"])
+        absent_rows = [r for r in rows if r["evidence_state"] == "absent"]
+        mode_counts: dict[str, int] = defaultdict(int)
+        tb_by_case: dict[str, list[bool]] = defaultdict(list)
+        for r in absent_rows:
+            mode_counts[r["terminal_behavior"]] += 1
+            tb_by_case[r["case_id"]].append(bool(r["terminal_behavior_pass"]))
+        tb_passes = sum(1 for r in absent_rows if r["terminal_behavior_pass"])
         summary["versions"][ver] = {
             "runs": len(rows),
             "correct_rate": round(
@@ -193,6 +236,17 @@ def main() -> int:
                 {r["case_id"] for r in rows
                  if r["evidence_state"] == "present" and not r["correct_resolution"]}
             ),
+            "terminal_behavior": {
+                "absent_runs": len(absent_rows),
+                "pass_rate": round(tb_passes / len(absent_rows), 4)
+                if absent_rows
+                else None,
+                "mode_counts": dict(sorted(mode_counts.items())),
+                "repeatability_by_case": {
+                    cid: repeatability_label(flags)
+                    for cid, flags in sorted(tb_by_case.items())
+                },
+            },
         }
 
     (scored_dir / "STANDALONE_RUN_SUMMARY.json").write_text(
@@ -200,7 +254,12 @@ def main() -> int:
     )
     print(f"scored {len(run_results)} runs -> scored/STANDALONE_RUN_SUMMARY.json")
     for ver, s in summary["versions"].items():
+        tb = s["terminal_behavior"]
         print(f"  {ver}: {s['runs']} runs, correct_rate={s['correct_rate']}")
+        print(
+            f"    terminal_behavior: {tb['absent_runs']} absent runs, "
+            f"pass_rate={tb['pass_rate']}, modes={tb['mode_counts']}"
+        )
     return 0
 
 

@@ -1,5 +1,5 @@
 {
-  "scored_at": "2026-09-27T16:03:10Z",
+  "scored_at": "2026-09-28T10:44:03Z",
   "scorer": "standalone (no product-internal canonicalizer)",
   "run_count": 48,
   "versions": {
@@ -21,7 +21,22 @@
       ],
       "false_publications": [
         "EVAL-SUBLET-PRESENT"
-      ]
+      ],
+      "terminal_behavior": {
+        "absent_runs": 12,
+        "pass_rate": 0.1667,
+        "mode_counts": {
+          "ABSTAIN": 2,
+          "QUIET_ASSERT": 1,
+          "UNMARKED": 9
+        },
+        "repeatability_by_case": {
+          "EVAL-CAL-ABSENT": "0/3",
+          "EVAL-DTP-ABSENT": "2/3",
+          "EVAL-SCAN-ABSENT": "0/3",
+          "EVAL-SUBLET-ABSENT": "0/3"
+        }
+      }
     },
     "v0.2.0": {
       "runs": 24,
@@ -39,7 +54,21 @@
       "false_suppressions": [],
       "false_publications": [
         "EVAL-SUBLET-PRESENT"
-      ]
+      ],
+      "terminal_behavior": {
+        "absent_runs": 12,
+        "pass_rate": 0.0833,
+        "mode_counts": {
+          "ESCALATE": 1,
+          "UNMARKED": 11
+        },
+        "repeatability_by_case": {
+          "EVAL-CAL-ABSENT": "1/3",
+          "EVAL-DTP-ABSENT": "0/3",
+          "EVAL-SCAN-ABSENT": "0/3",
+          "EVAL-SUBLET-ABSENT": "0/3"
+        }
+      }
     }
   }
 }

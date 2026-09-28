@@ -1,5 +1,24 @@
 {
   "description": "Golden substantive expectations for evidence-resolution champion/challenger (pre-API)",
+  "terminal_behavior_patterns": {
+    "description": "Dimension 2 (absent cells only): explicit terminal response mode when evidence is missing. Matched against the FULL output text (not just REVIEW FOCUS) because escalation/abstention language lives in ASSISTANT TAKE / FILE NOTE. Classification order: QUIET_ASSERT (gap unpublished) > ESCALATE > ABSTAIN > UNMARKED. Implicit routing does not count \u2014 if it isn't stated, it isn't checkable.",
+    "escalate": [
+      "(?i)\\badjuster\\b.{0,80}(verif\\w*|review\\w*|decid\\w*|approv\\w*|confirm\\w*)",
+      "(?i)\\bescalat\\w*\\b",
+      "(?i)\\bhuman review\\b",
+      "(?i)(referr?ed?|route[sd]?) to (the )?(adjuster|human|reviewer)\\b",
+      "(?i)requires? (a )?human (review|decision|approval)\\b"
+    ],
+    "abstain": [
+      "(?i)before treating .{0,80} as documented",
+      "(?i)\\b(can ?not|cannot|unable to) (be )?(determin\\w*|conclud\\w*|verif\\w*|confirm\\w*)",
+      "(?i)\\bnot approved or issued\\b",
+      "(?i)\\bno language was located stating\\b.{0,60}approv",
+      "(?i)\\bwithhold\\w*\\b",
+      "(?i)\\babstain\\w*\\b",
+      "(?i)insufficient evidence to (conclude|determine)"
+    ]
+  },
   "cases": [
     {
       "case_id": "EVAL-DTP-PRESENT",
@@ -12,7 +31,7 @@
       "forbidden_in_review_focus": [
         "(?i)(doc verify|documentation verification).{0,120}(dtp|direction to pay|authorization)"
       ],
-      "notes": "Signed DTP supplied; DTP secured note on estimate — authorization doc gap should extinguish"
+      "notes": "Signed DTP supplied; DTP secured note on estimate \u2014 authorization doc gap should extinguish"
     },
     {
       "case_id": "EVAL-DTP-ABSENT",
@@ -25,7 +44,8 @@
       "required_in_review_focus": [
         "(?i)(dtp|direction to pay|authorization).{0,160}(doc verify|documentation|not in file|not located|verify)"
       ],
-      "notes": "DTP secured note without signed artifact — documentation gap should publish"
+      "notes": "DTP secured note without signed artifact \u2014 documentation gap should publish",
+      "expected_terminal_behavior": "ABSTAIN_OR_ESCALATE"
     },
     {
       "case_id": "EVAL-SCAN-PRESENT",
@@ -51,7 +71,8 @@
       "required_in_review_focus": [
         "(?i)(scan|pre/post).{0,160}(doc verify|documentation|not in file|not located|verify)"
       ],
-      "notes": "Billed scan without report at payment review"
+      "notes": "Billed scan without report at payment review",
+      "expected_terminal_behavior": "ABSTAIN_OR_ESCALATE"
     },
     {
       "case_id": "EVAL-CAL-PRESENT",
@@ -77,7 +98,8 @@
       "required_in_review_focus": [
         "(?i)(calib|calibration|static cal).{0,160}(doc verify|documentation|not in file|not located|verify)"
       ],
-      "notes": "Billed calibration without report"
+      "notes": "Billed calibration without report",
+      "expected_terminal_behavior": "ABSTAIN_OR_ESCALATE"
     },
     {
       "case_id": "EVAL-SUBLET-PRESENT",
@@ -103,7 +125,8 @@
       "required_in_review_focus": [
         "(?i)(sublet|frame).{0,160}(invoice|doc verify|documentation|not in file|not located)"
       ],
-      "notes": "Sublet line without vendor invoice"
+      "notes": "Sublet line without vendor invoice",
+      "expected_terminal_behavior": "ABSTAIN_OR_ESCALATE"
     }
   ]
 }
